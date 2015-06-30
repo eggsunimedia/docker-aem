@@ -1,0 +1,18 @@
+publish:
+    image: aem-publish
+    ports:
+        - "4503:4503"
+
+author:
+    image: aem-author
+    ports:
+        - "4502:4502"
+    links:
+        - publish
+
+#dispatcher:
+#    image: apache-dispatcher
+#    ports:
+#        - "80:80"
+#    links:
+#        - publish

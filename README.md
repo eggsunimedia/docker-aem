@@ -7,7 +7,7 @@
 ## Build Prerequisites
 The following files are required, but they're not part of this repository. Add them manually before you're able to build the Docker images.
 - AEM/aem-quickstart-6.0.jar
-- AEM/dispatcher-apache2.4-4.1.8.so
+- AEM/license.properties
 - Dispatcher/dispatcher-apache2.4-4.1.8.so
 
 ## Build AEM Images

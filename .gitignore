@@ -2,3 +2,5 @@ aem-quickstart-6.0.jar
 license.properties
 
 wget-log
+
+dispatcher-apache*

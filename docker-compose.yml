@@ -10,9 +10,9 @@ author:
     links:
         - publish
 
-#dispatcher:
-#    image: apache-dispatcher
-#    ports:
-#        - "80:80"
-#    links:
-#        - publish
+dispatcher:
+    image: apache-dispatcher
+    ports:
+        - "80:80"
+    links:
+        - publish

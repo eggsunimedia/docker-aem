@@ -37,9 +37,6 @@ Execute within the project root folder
 docker-compose up
 ```
 
-## Known Issues
-- The default replication agent isn't configured correctly. The hostname _localhost_ has to be replaced by _publish_.
-
 ## Access AEM Environment
 When you want to access you environment on Windows or MAC, you have to resolve the IP of your Boot2Docker VM first:
 ```boot2docker ip```
